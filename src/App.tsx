@@ -1,22 +1,17 @@
 import React from 'react';
-import './App.css';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-} from 'react-router-dom';
+import './App.scss';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Home } from './Components/Home';
+import { Nav } from './Components/Nav';
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route path="home" component={Home} />
+        <Route path="/" component={Home} />
       </Switch>
-       <Nav></Nav>
+      <Nav></Nav>
     </Router>
-    <div className="App">
-      <h1>Cam Brown</h1>
-    </div>
   );
 }
 
