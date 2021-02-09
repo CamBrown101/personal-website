@@ -6,13 +6,21 @@ export const Nav = () => {
   return (
     <nav id="nav-bar">
       <nav id="nav-menu">
-        <NavLink className="nav-menu-item" id="nav-menu-home" to="/">
+        <NavLink exact to="/" className="nav-menu-item" id="nav-menu-home">
           Home
         </NavLink>
-        <NavLink className="nav-menu-item" id="nav-menu-about" to="/">
+        <NavLink
+          exact
+          to="/about"
+          className="nav-menu-item"
+          id="nav-menu-about">
           About
         </NavLink>
-        <NavLink className="nav-menu-item" id="nav-menu-contact" to="/">
+        <NavLink
+          exact
+          to="/contact"
+          className="nav-menu-item"
+          id="nav-menu-contact">
           Contact
         </NavLink>
       </nav>
