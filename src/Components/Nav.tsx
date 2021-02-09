@@ -23,6 +23,13 @@ export const Nav = () => {
           id="nav-menu-contact">
           Contact
         </NavLink>
+        <NavLink
+          exact
+          to="/projects"
+          className="nav-menu-item"
+          id="nav-menu-projects">
+          Projects
+        </NavLink>
       </nav>
     </nav>
   );
