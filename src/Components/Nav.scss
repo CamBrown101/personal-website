@@ -3,21 +3,17 @@
   top: 0;
   width: 100%;
   min-width: 100%;
+  background-color: rosybrown;
   #nav-menu {
     display: flex;
-    height: 80px;
-    font-size: 20px;
     font-weight: bolder;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 2%;
 
     .nav-menu-item {
-      height: 90%;
-      margin: 1%;
-      color: white;
       white-space: nowrap;
       padding: 15px 10px;
+      background-color: rebeccapurple;
+      color: black;
     }
   }
 }
