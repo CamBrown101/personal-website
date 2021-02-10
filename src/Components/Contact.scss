@@ -1,6 +1,17 @@
 @import '../variables.scss';
 
-.linkedin-icon {
-  color: $font-color;
-  font-size: 2em;
+.contact-container {
+  margin-top: 50px;
+  .icon {
+    color: $font-color;
+    font-size: 2em;
+    margin-right: 5px;
+  }
+  .flex {
+    display: flex;
+    align-items: baseline;
+  }
+  h3 {
+    margin: 0;
+  }
 }
