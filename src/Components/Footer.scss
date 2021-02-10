@@ -1,0 +1,8 @@
+@import '../variables.scss';
+
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  background-color: $footer-background;
+  width: 100%;
+}
