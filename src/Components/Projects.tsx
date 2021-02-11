@@ -7,8 +7,8 @@ export const Projects = () => {
     <div className="projects-container">
       <article className="project">
         <img className="screenshot" alt="This is a project" src={ScreenShot1} />
-        <h4>Buy Food, Sell Food</h4>
-        <p>
+        <h4 className="project-title">Buy Food, Sell Food</h4>
+        <p className="project-description">
           A point of sales system for a restaurant. Including analytics,
           employee clock in, stripe integration, the ability to email bills,
           sort bills by seat and a separate screen for the kitchen and bar for
