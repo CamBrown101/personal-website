@@ -3,8 +3,9 @@
 #nav-bar {
   position: fixed;
   top: 0;
-  width: 100%;
-  min-width: 100%;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
   background-color: $nav-background;
   #nav-menu {
     display: flex;
@@ -13,7 +14,7 @@
 
     .nav-menu-item {
       white-space: nowrap;
-      padding: 15px 10px;
+      padding: 10px 10px 0 0;
       background-color: $nav-background;
       color: black;
     }
