@@ -1,17 +1,19 @@
 import React from 'react';
+import { About } from './About';
+import { Contact } from './Contact';
+import { Projects } from './Projects';
 import './Home.scss';
 
 export const Home = () => {
   return (
     <div className="home-container">
-      <article className="about-me-container">
-        <h3>About Me</h3>
-        <p>Some stuff about me</p>
-      </article>
+      <About />
       <article className="career-container">
         <h3>Career</h3>
         <p>Some stuff about my career</p>
       </article>
+      <Projects />
+      <Contact />
     </div>
   );
 };
