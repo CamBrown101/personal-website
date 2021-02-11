@@ -3,8 +3,20 @@
 .projects-container {
   margin-top: 50px;
   margin-left: 5%;
-
-  .screenshot {
-    width: 300px;
+  .project {
+    width: 25%;
+    background-color: $projects-background;
+    color: $projects-font;
+    padding: 2%;
+    .screenshot {
+      width: 100%;
+    }
+    .tech-stack-header {
+      margin: 0;
+    }
+    p.tech-stack {
+      margin: 0;
+      font-size: 0.75em;
+    }
   }
 }
