@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer className="footer-container">
       <p>
-        Copyright {todaysYear} Desgin and Developed By Cameron Brown. All Rights
+        Copyright {todaysYear} Design and Developed By Cameron Brown. All Rights
         Reserved.
       </p>
     </footer>
