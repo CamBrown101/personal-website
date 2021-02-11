@@ -4,12 +4,20 @@
   margin-top: 50px;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: $about-background;
+  background-image: url('../images/headshot-blacknwhite.png');
+  background-color: rgba($color: $about-background, $alpha: 1);
+  background-position: right;
+  background-size: 700px;
+  background-repeat: no-repeat;
+  height: 450px;
   padding: 2%;
   color: $about-font;
   .name {
     width: 150px;
     word-wrap: normal;
+  }
+  .about-me {
+    max-width: 600px;
   }
   h1,
   h2 {
