@@ -21,6 +21,10 @@ export const Contact = () => {
         <i className="fab fa-github-square github-icon icon"></i>
         <h3>CamBrown101</h3>
       </a>
+      <a className="flex contact" href="https://twitter.com/CamBrown101">
+        <i className="fab fa-twitter-square github-icon icon"></i>
+        <h3>CamBrown101</h3>
+      </a>
     </div>
   );
 };
