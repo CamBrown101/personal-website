@@ -17,6 +17,7 @@
   .contact {
     color: $font-color;
     text-decoration: none;
+    transition: font-size 0.5s;
   }
   .contact:visited {
     font-style: none;
