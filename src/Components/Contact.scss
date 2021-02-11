@@ -4,7 +4,6 @@
   margin-top: 50px;
   margin-left: 5%;
   .icon {
-    color: $contact-icons;
     font-size: 2em;
     margin-right: 5px;
   }
@@ -14,5 +13,18 @@
   }
   h3 {
     margin: 0;
+  }
+  .contact {
+    color: $font-color;
+    text-decoration: none;
+  }
+  .contact:visited {
+    font-style: none;
+    color: $font-color;
+    text-decoration: none;
+  }
+  .contact:hover {
+    color: $contact-hover;
+    font-size: 20px;
   }
 }
