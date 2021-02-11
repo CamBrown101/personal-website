@@ -4,8 +4,9 @@
   margin-top: 50px;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: slategray;
+  background-color: $about-background;
   padding: 2%;
+  color: $about-font;
   .name {
     width: 150px;
     word-wrap: normal;
