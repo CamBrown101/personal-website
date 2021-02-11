@@ -5,7 +5,7 @@
   top: 0;
   width: 100%;
   min-width: 100%;
-  background-color: rosybrown;
+  background-color: $nav-background;
   #nav-menu {
     display: flex;
     font-weight: bolder;
@@ -14,7 +14,7 @@
     .nav-menu-item {
       white-space: nowrap;
       padding: 15px 10px;
-      background-color: rebeccapurple;
+      background-color: $nav-background;
       color: black;
     }
   }
