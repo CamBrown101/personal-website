@@ -6,7 +6,7 @@
   margin-right: 5%;
   background-image: url('../images/headshot-blacknwhite.png');
   background-color: rgba($color: $about-background, $alpha: 1);
-  background-position: right;
+  background-position: 140% 50%;
   background-size: 700px;
   background-repeat: no-repeat;
   height: 450px;
@@ -17,7 +17,7 @@
     word-wrap: normal;
   }
   .about-me {
-    max-width: 600px;
+    max-width: 300px;
   }
   h1,
   h2 {
