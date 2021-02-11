@@ -3,8 +3,14 @@
 .projects-container {
   margin-top: 50px;
   margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-wrap: wrap;
+
   .project {
-    width: 25%;
+    margin: 1% 1% 1% 1%;
+    min-width: 300px;
+    max-width: 500px;
     background-color: $projects-background;
     color: $projects-font;
     padding: 2%;
