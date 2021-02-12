@@ -30,6 +30,19 @@ export const Skills = () => {
         <li>.Net</li>
       </ul>
       <h4>Experience</h4>
+      <ul>
+        <li>Single page applications</li>
+        <li>AJAX</li>
+        <li>Restful routing with express</li>
+        <li>Normalizing databases</li>
+        <li>Test driven development</li>
+        <li>End to end testing with Cypress</li>
+        <li>Git on group projects</li>
+        <li>Component testing with storybook</li>
+        <li>Insertion testing with Jest</li>
+        <li>Continuous integration with CircleCI</li>
+        <li>Object Orientated Programming</li>
+      </ul>
     </div>
   );
 };
