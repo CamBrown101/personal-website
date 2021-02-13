@@ -46,7 +46,9 @@ export const Nav = () => {
           <a className="nav-contact" href="https://github.com/CamBrown101">
             <i className="fab fa-github-square github-icon icon"></i>
           </a>
-          <a className="nav-contact" href="https://twitter.com/CamBrown101">
+          <a
+            className="nav-contact contact-last"
+            href="https://twitter.com/CamBrown101">
             <i className="fab fa-twitter-square github-icon icon"></i>
           </a>
         </div>

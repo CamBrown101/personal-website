@@ -9,9 +9,9 @@
   }
   position: fixed;
   top: 0;
-  width: 90%;
-  margin-right: 5%;
-  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   background-color: $nav-background;
 
   #nav-menu {
@@ -19,6 +19,7 @@
     justify-content: space-between;
     font-weight: bolder;
     align-items: baseline;
+    max-width: 1350px;
 
     .nav-menu-item {
       white-space: nowrap;
@@ -42,6 +43,9 @@
       align-items: baseline;
       color: $font-color;
       text-decoration: none;
+    }
+    .contact-last {
+      padding: 10px 0 0 0;
     }
     .nav-contact:visited {
       font-style: none;
