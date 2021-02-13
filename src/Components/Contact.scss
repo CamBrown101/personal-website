@@ -17,15 +17,18 @@
   .contact {
     color: $font-color;
     text-decoration: none;
-    transition: font-size 0.5s;
+    transition: 0.5s;
   }
   .contact:visited {
     font-style: none;
     color: $font-color;
     text-decoration: none;
   }
+  .contact:hover::before {
+    transform: scale(1.1);
+  }
   .contact:hover {
-    color: $contact-hover;
-    font-size: 20px;
+    color: pink;
+    text-shadow: 0 0 5px pink;
   }
 }
