@@ -3,48 +3,54 @@ import './Skills.scss';
 
 export const Skills = () => {
   return (
-    <div>
+    <article className="skills-container">
       <h3>Skills Section</h3>
-      <h4>Languages</h4>
+      <h4>Languages I Know</h4>
       <ul className="languages-list list">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>SASS</li>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
-        <li>SQL</li>
-        <li>C#</li>
-        <li>Ruby</li>
+        <li className="languages-list-item">HTML</li>
+        <li className="languages-list-item">CSS</li>
+        <li className="languages-list-item">SASS</li>
+        <li className="languages-list-item">JavaScript</li>
+        <li className="languages-list-item">TypeScript</li>
+        <li className="languages-list-item">SQL</li>
+        <li className="languages-list-item">C#</li>
+        <li className="languages-list-item">Ruby</li>
       </ul>
-      <h4>Frameworks</h4>
+      <h4>Frameworks I've Worked With</h4>
       <ul className="frameworks-list list">
-        <li>React</li>
-        <li>React-Router</li>
-        <li>React-Native</li>
-        <li>Redux</li>
-        <li>Node</li>
-        <li>Express</li>
-        <li>Rails</li>
-        <li>jQuery</li>
-        <li>Bootstrap</li>
-        <li>.Net</li>
+        <li className="frameworks-list-item">React</li>
+        <li className="frameworks-list-item">React-Router</li>
+        <li className="frameworks-list-item">React-Native</li>
+        <li className="frameworks-list-item">Redux</li>
+        <li className="frameworks-list-item">Node</li>
+        <li className="frameworks-list-item">Express</li>
+        <li className="frameworks-list-item">Rails</li>
+        <li className="frameworks-list-item">jQuery</li>
+        <li className="frameworks-list-item">Bootstrap</li>
+        <li className="frameworks-list-item">.Net</li>
       </ul>
-      <h4>Experience</h4>
+      <h4>Things I Have Experience With</h4>
       <ul className="experiences-list list">
-        <li>Single page applications</li>
-        <li>AJAX</li>
-        <li>Restful routing with express</li>
-        <li>Normalizing databases</li>
-        <li>Test driven development</li>
-        <li>End to end testing with Cypress</li>
-        <li>Git on group projects</li>
-        <li>Component testing with storybook</li>
-        <li>Insertion testing with Jest</li>
-        <li>Continuous integration with CircleCI</li>
-        <li>Object Orientated Programming</li>
-        <li>MVC concept</li>
-        <li>Unity</li>
+        <li className="experiences-list-item">Single page applications</li>
+        <li className="experiences-list-item">AJAX</li>
+        <li className="experiences-list-item">Restful routing with express</li>
+        <li className="experiences-list-item">Normalizing databases</li>
+        <li className="experiences-list-item">Test driven development</li>
+        <li className="experiences-list-item">
+          End to end testing with Cypress
+        </li>
+        <li className="experiences-list-item">Git on group projects</li>
+        <li className="experiences-list-item">
+          Component testing with storybook
+        </li>
+        <li className="experiences-list-item">Insertion testing with Jest</li>
+        <li className="experiences-list-item">
+          Continuous integration with CircleCI
+        </li>
+        <li className="experiences-list-item">Object Orientated Programming</li>
+        <li className="experiences-list-item">MVC concept</li>
+        <li className="experiences-list-item">Unity</li>
       </ul>
-    </div>
+    </article>
   );
 };

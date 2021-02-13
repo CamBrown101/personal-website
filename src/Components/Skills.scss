@@ -1,9 +1,19 @@
 @import '../variables.scss';
 
-.list {
-  list-style-type: none;
-  display: flex;
-  li {
-    margin-right: 5px;
+.skills-container {
+  margin-right: 5%;
+  margin-left: 5%;
+  .list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    .frameworks-list-item,
+    .languages-list-item {
+      margin-right: 5px;
+      width: 30%;
+    }
+    .experiences-list-item {
+      width: 45%;
+    }
   }
 }
