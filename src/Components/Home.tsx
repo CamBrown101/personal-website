@@ -8,14 +8,16 @@ import './Home.scss';
 export const Home = () => {
   return (
     <div className="home-container">
-      <About />
-      <Skills />
-      <article className="career-container">
-        <h3>Career</h3>
-        <p>Some stuff about my career</p>
-      </article>
-      <Projects />
-      <Contact />
+      <div className="home-container-inner">
+        <About />
+        <Skills />
+        <article className="career-container">
+          <h3>Career</h3>
+          <p>Some stuff about my career</p>
+        </article>
+        <Projects />
+        <Contact />
+      </div>
     </div>
   );
 };
