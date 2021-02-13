@@ -6,7 +6,7 @@ export const Skills = () => {
     <div>
       <h3>Skills Section</h3>
       <h4>Languages</h4>
-      <ul>
+      <ul className="languages-list list">
         <li>HTML</li>
         <li>CSS</li>
         <li>SASS</li>
@@ -17,7 +17,7 @@ export const Skills = () => {
         <li>Ruby</li>
       </ul>
       <h4>Frameworks</h4>
-      <ul>
+      <ul className="frameworks-list list">
         <li>React</li>
         <li>React-Router</li>
         <li>React-Native</li>
@@ -30,7 +30,7 @@ export const Skills = () => {
         <li>.Net</li>
       </ul>
       <h4>Experience</h4>
-      <ul>
+      <ul className="experiences-list list">
         <li>Single page applications</li>
         <li>AJAX</li>
         <li>Restful routing with express</li>
@@ -42,6 +42,8 @@ export const Skills = () => {
         <li>Insertion testing with Jest</li>
         <li>Continuous integration with CircleCI</li>
         <li>Object Orientated Programming</li>
+        <li>MVC concept</li>
+        <li>Unity</li>
       </ul>
     </div>
   );
