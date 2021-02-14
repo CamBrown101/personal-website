@@ -1,6 +1,20 @@
 @import '../variables.scss';
 
 .skills-container {
+  color: $skills-font;
+  background-color: $skills-background;
+  padding: 15px 5px 15px 5px;
+  h4,
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  h4 {
+    margin-bottom: 5px;
+  }
+  ul {
+    margin-bottom: 10px;
+  }
   .list {
     list-style-type: none;
     display: flex;
@@ -8,7 +22,7 @@
     .frameworks-list-item,
     .languages-list-item {
       margin-right: 5px;
-      width: 30%;
+      width: 22%;
     }
     .experiences-list-item {
       width: 45%;
