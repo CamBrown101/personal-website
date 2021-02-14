@@ -43,6 +43,7 @@
       align-items: baseline;
       color: $font-color;
       text-decoration: none;
+      transition: 0.5s;
     }
     .contact-last {
       padding: 10px 0 0 0;
@@ -52,8 +53,13 @@
       color: $font-color;
       text-decoration: none;
     }
+
+    .nav-contact:hover::before {
+      transform: scale(1.1);
+    }
     .nav-contact:hover {
       color: $contact-hover;
+      text-shadow: 0 0 5px black;
     }
   }
 }
