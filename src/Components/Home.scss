@@ -1,13 +1,13 @@
 @import '../variables.scss';
 
 .home-container {
-  margin-top: 60px;
   color: $font-color;
   margin-right: auto;
   margin-left: auto;
   max-width: 1500px;
   min-width: 900px;
   .home-container-inner {
+    padding-top: 30px;
     margin-left: 5%;
     margin-right: 5%;
   }
