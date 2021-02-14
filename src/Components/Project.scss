@@ -27,15 +27,19 @@
     font-size: 1em;
   }
   .project-buttons {
-    background-color: red;
+    background-color: $projects-background;
     height: 30%;
     width: 100%;
     z-index: 2;
     position: absolute;
     bottom: 0;
     left: 0;
+    transition: all 0.5s ease;
+    opacity: 0.8;
+    transform: translateY(0);
   }
   .hide {
-    display: none;
+    height: 0;
+    opacity: 0;
   }
 }
