@@ -3,12 +3,12 @@
 .project {
   width: 50%;
   .project-inner {
-    margin: 0 2px 2px 0;
+    margin: 0 10px 10px 0;
     background-color: $projects-background;
     color: $projects-font;
     position: relative;
     border: thin solid black;
-    height: 99%;
+    height: 98%;
   }
   .right {
     margin-right: 0;
