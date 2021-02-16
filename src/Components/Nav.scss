@@ -66,26 +66,26 @@
       text-shadow: 0 0 5px black;
     }
 
-    .home-link {
+    .nav-link {
       text-decoration: none;
       color: white;
       background-color: $font-color;
-      padding: 2px;
+      padding: 2px 4px;
       margin-top: 10px;
-
+      margin-right: 10px;
       font-size: 20px;
       transition: 0.5s;
       border-radius: 3px;
     }
-    .home-link:hover {
+    .nav-link:hover {
       color: $contact-hover;
       background-color: $contact-hover;
       text-shadow: 0 0 5px black;
     }
-    .home-link:visited {
+    .nav-link:visited {
       color: white;
     }
-    .home-link:active {
+    .nav-link:active {
       color: white;
     }
   }
