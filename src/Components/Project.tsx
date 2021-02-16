@@ -7,6 +7,7 @@ type Props = {
   techstack: string;
   githubLink: string;
   projectLink: string;
+  isRight: boolean;
 };
 
 export const Project = ({
@@ -16,9 +17,9 @@ export const Project = ({
   techstack,
   githubLink,
   projectLink,
+  isRight,
 }: Props) => {
   const [hover, setHover] = useState<boolean>(false);
-
   return (
     <article
       onMouseOver={() => setHover(true)}
@@ -26,7 +27,7 @@ export const Project = ({
         setHover(false);
       }}
       className="project">
-      <div className="project-inner">
+      <div className={isRight ? 'project-inner right' : 'project-inner'}>
         <img className="screenshot" alt="This is a project" src={image} />
         <div className="project-text">
           <h4 className="project-title">{title}</h4>

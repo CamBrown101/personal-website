@@ -56,6 +56,7 @@ export const Projects = () => {
         image={projectDetails[0].image}
         githubLink={projectDetails[0].githubLink}
         projectLink={projectDetails[0].projectLink}
+        isRight={false}
       />
       <Project
         title={projectDetails[1].title}
@@ -64,6 +65,7 @@ export const Projects = () => {
         image={projectDetails[1].image}
         githubLink={projectDetails[1].githubLink}
         projectLink={projectDetails[1].projectLink}
+        isRight={true}
       />
       <Project
         title={projectDetails[2].title}
@@ -72,6 +74,7 @@ export const Projects = () => {
         image={projectDetails[2].image}
         githubLink={projectDetails[2].githubLink}
         projectLink={projectDetails[2].projectLink}
+        isRight={false}
       />
       <Project
         title={projectDetails[3].title}
@@ -80,6 +83,7 @@ export const Projects = () => {
         image={projectDetails[3].image}
         githubLink={projectDetails[3].githubLink}
         projectLink={projectDetails[3].projectLink}
+        isRight={true}
       />
     </div>
   );
