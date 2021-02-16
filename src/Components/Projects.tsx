@@ -48,7 +48,7 @@ export const Projects = () => {
     },
   ];
   return (
-    <div className="projects-container">
+    <div id="projects-container">
       <Project
         title={projectDetails[0].title}
         description={projectDetails[0].description}
