@@ -3,7 +3,7 @@ import './About.scss';
 
 export const About = () => {
   return (
-    <div className="about-container">
+    <div id="about-container">
       <h1 className="name">Cameron Brown</h1>
       <h2 className="title">Web Developer</h2>
       <p className="about-me">
