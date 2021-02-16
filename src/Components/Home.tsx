@@ -3,6 +3,7 @@ import { About } from './About';
 import { Contact } from './Contact';
 import { Projects } from './Projects';
 import { Skills } from './Skills';
+import { Resume } from './Resume';
 import './Home.scss';
 
 export const Home = () => {
@@ -11,10 +12,7 @@ export const Home = () => {
       <div className="home-container-inner">
         <About />
         <Skills />
-        <article className="career-container">
-          <h3>Career</h3>
-          <p>Some stuff about my career</p>
-        </article>
+        <Resume />
         <Projects />
         <Contact />
       </div>
