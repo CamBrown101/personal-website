@@ -1,23 +1,24 @@
 import './Projects.scss';
 import { Project } from './Project';
-import ScreenShot1 from '../images/ScreenShot.png';
-import BuyThings from '../images/BuythingsScreen.png';
+import screenShot1 from '../images/ScreenShot.png';
+import buyThings from '../images/BuythingsScreen.png';
+import scheduler from '../images/scheduler.png';
 
 export const Projects = () => {
   const projectDetails = [
     {
       title: 'Buy Food, Sell Food',
-      image: ScreenShot1,
+      image: screenShot1,
       description:
         'A restaurant point of sales system with analytic information as well as production screens for making drinks and food. This was my final project for Lighthouse Labs Bootcamp. This project was all about getting more familiar with React, we used React-Router as well. I also learned a lot about scaling a React app and keeping state organized.  Use 1111 to login.',
       techStack:
-        'React, React- Router, SASS, HTML, Node, Express, PostgreSQL, Node - mailer, Canvas.js',
+        'React, Axios, React- Router, SASS, HTML, Node, Express, PostgreSQL, Node - mailer, Canvas.js',
       githubLink: 'https://github.com/CamBrown101/final-project',
       projectLink: 'https://buy-food-sell-food.netlify.app/login',
     },
     {
       title: 'Buy Things, Sell Things',
-      image: BuyThings,
+      image: buyThings,
       description:
         'A single page App for buying and selling items. We used AJAX calls for all of the reloads within the page. The app includes a chat function using AJAX calls to the database on intervals to allow real time conversations. We did all of this without using frameworks so we could learn how these frameworks work behind the scenes.',
       techStack:
@@ -27,23 +28,22 @@ export const Projects = () => {
     },
     {
       title: 'Schedular',
-      image: ScreenShot1,
+      image: scheduler,
       description:
-        'A point of sales system for a restaurant.Including analytics, employee clock in, stripe integration, the ability to email bills, sort bills by seat and a separate screen for the kitchen and bar for items that need to be prepared.We also a sort by categories for menu items as well as a search bar that you can search by item name or category.',
+        'A React app for booking interviews with interviewers.Using useReducers and  useState to change how the user interacts with the app as well as practise writing different types of tests and setting up testing environments as well as setting up CircleCI for continuous integration.',
       techStack:
-        'React, React- Router, SASS, HTML, Node, Express, Node - mailer, Canvas.js',
-      githubLink: 'https://github.com/CamBrown101/final-project',
-      projectLink: 'https://buy-food-sell-food.netlify.app/login',
+        'React, Axios, SASS, HTML, Node, Express, Storybook, Jest, CircleCI',
+      githubLink: 'https://github.com/CamBrown101/scheduler',
+      projectLink: 'https://scheduler-cam-brown.netlify.app/',
     },
     {
-      title: 'Buy Food, Sell Food',
-      image: ScreenShot1,
+      title: 'Tweeter',
+      image: tweeter,
       description:
-        'A point of sales system for a restaurant.Including analytics, employee clock in, stripe integration, the ability to email bills, sort bills by seat and a separate screen for the kitchen and bar for items that need to be prepared.We also a sort by categories for menu items as well as a search bar that you can search by item name or category.',
-      techStack:
-        'React, React- Router, SASS, HTML, Node, Express, Node - mailer, Canvas.js',
-      githubLink: 'https://github.com/CamBrown101/final-project',
-      projectLink: 'https://buy-food-sell-food.netlify.app/login',
+        'A twitter clone for posting short messages. This project was made using jQuery for everything and AJAX calls for all of the reloading.  I also used animation effects on things like scroll to allow a button to appear to take you back to the top after scrolling down.',
+      techStack: 'EJS, jQuery, Axios, Node, Express, SASS',
+      githubLink: 'https://github.com/CamBrown101/tweeter',
+      projectLink: 'https://cam-brown-tweeter.herokuapp.com/',
     },
   ];
   return (
