@@ -3,7 +3,7 @@ import './Contact.scss';
 
 export const Contact = () => {
   return (
-    <div className="contact-container">
+    <div id="contact-container">
       <h1>Contact Me</h1>
       <a
         className="flex contact"
