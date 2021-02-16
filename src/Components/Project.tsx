@@ -32,10 +32,10 @@ export const Project = ({
       <h3 className="tech-stack-header">Tech Stack</h3>
       <p className="tech-stack">{techstack}</p>
       <div className={hover ? 'project-buttons' : 'project-buttons hide'}>
-        <a href={githubLink}>
+        <a className="link-container" href={githubLink}>
           <i className="fab fa-github hover-icon" />
         </a>
-        <a href={projectLink}>
+        <a className="link-container" href={projectLink}>
           <i className="fas fa-link hover-icon" />
         </a>
       </div>
