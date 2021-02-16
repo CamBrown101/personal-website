@@ -7,7 +7,7 @@ import './Home.scss';
 
 export const Home = () => {
   return (
-    <div className="home-container">
+    <div id="home-container">
       <div className="home-container-inner">
         <About />
         <Skills />
