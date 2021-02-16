@@ -3,7 +3,7 @@ import './Skills.scss';
 
 export const Skills = () => {
   return (
-    <article className="skills-container">
+    <article id="skills-container">
       <h4>Languages I Know</h4>
       <ul className="languages-list list">
         <li className="languages-list-item">HTML</li>
