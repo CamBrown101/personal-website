@@ -7,12 +7,15 @@ export const Nav = () => {
     <nav id="nav-bar">
       <nav id="nav-menu">
         <div className="sections">
-          <NavLink exact to="/" className="nav-menu-item" id="nav-menu-home">
+          <a className="home-link" href="#home-container">
+            Home
+          </a>
+          {/* <NavLink exact to="/" className="nav-menu-item" id="nav-menu-home">
             Home
           </NavLink>
           <NavLink
             exact
-            to="/about"
+            to="#about-container"
             className="nav-menu-item"
             id="nav-menu-about">
             About
@@ -30,7 +33,7 @@ export const Nav = () => {
             className="nav-menu-item"
             id="nav-menu-projects">
             Projects
-          </NavLink>
+          </NavLink> */}
         </div>
         <div className="nav-contacts">
           <a
