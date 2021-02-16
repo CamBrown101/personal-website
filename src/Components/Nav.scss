@@ -18,9 +18,13 @@
     display: flex;
     justify-content: space-between;
     font-weight: bolder;
-    align-items: baseline;
     max-width: 1350px;
     width: 90%;
+    .sections {
+      display: flex;
+      align-items: center;
+      margin: 0;
+    }
     .nav-menu-item {
       white-space: nowrap;
       padding: 10px 10px 0 0;
@@ -60,6 +64,29 @@
     .nav-contact:hover {
       color: $contact-hover;
       text-shadow: 0 0 5px black;
+    }
+
+    .home-link {
+      text-decoration: none;
+      color: white;
+      background-color: $font-color;
+      padding: 2px;
+      margin-top: 10px;
+
+      font-size: 20px;
+      transition: 0.5s;
+      border-radius: 3px;
+    }
+    .home-link:hover {
+      color: $contact-hover;
+      background-color: $contact-hover;
+      text-shadow: 0 0 5px black;
+    }
+    .home-link:visited {
+      color: white;
+    }
+    .home-link:active {
+      color: white;
     }
   }
 }
