@@ -1,0 +1,25 @@
+@import '../variables.scss';
+
+#resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $resume-font;
+  background-color: $resume-background;
+  height: 100px;
+  .resume-button {
+    text-decoration: none;
+    background-color: black;
+    padding: 20px 30px;
+    border-radius: 5px;
+  }
+  .resume-button:visited {
+    color: $resume-font;
+  }
+  .resume-button:active {
+    color: $resume-font;
+  }
+  .resume-button:hover {
+    color: $resume-font-hover;
+  }
+}
