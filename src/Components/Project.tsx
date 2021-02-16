@@ -26,20 +26,22 @@ export const Project = ({
         setHover(false);
       }}
       className="project">
-      <img className="screenshot" alt="This is a project" src={image} />
-      <div className="project-text">
-        <h4 className="project-title">{title}</h4>
-        <p className="project-description">{description}</p>
-        <h3 className="tech-stack-header">Tech Stack</h3>
-        <p className="tech-stack">{techstack}</p>
-      </div>
-      <div className={hover ? 'project-buttons' : 'project-buttons hide'}>
-        <a className="link-container" href={githubLink}>
-          <i className="fab fa-github hover-icon" />
-        </a>
-        <a className="link-container" href={projectLink}>
-          <i className="fas fa-link hover-icon" />
-        </a>
+      <div className="project-inner">
+        <img className="screenshot" alt="This is a project" src={image} />
+        <div className="project-text">
+          <h4 className="project-title">{title}</h4>
+          <p className="project-description">{description}</p>
+          <h3 className="tech-stack-header">Tech Stack</h3>
+          <p className="tech-stack">{techstack}</p>
+        </div>
+        <div className={hover ? 'project-buttons' : 'project-buttons hide'}>
+          <a className="link-container" href={githubLink}>
+            <i className="fab fa-github hover-icon" />
+          </a>
+          <a className="link-container" href={projectLink}>
+            <i className="fas fa-link hover-icon" />
+          </a>
+        </div>
       </div>
     </article>
   );

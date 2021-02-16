@@ -2,9 +2,15 @@
 
 .project {
   width: 50%;
-  background-color: $projects-background;
-  color: $projects-font;
-  position: relative;
+  height: 440px;
+  .project-inner {
+    margin: 0 2px 2px 0;
+    background-color: $projects-background;
+    color: $projects-font;
+    position: relative;
+    border: thin solid black;
+    height: 99%;
+  }
   .screenshot {
     width: 100%;
   }
