@@ -3,6 +3,7 @@ import { Project } from './Project';
 import screenShot1 from '../images/ScreenShot.png';
 import buyThings from '../images/BuythingsScreen.png';
 import scheduler from '../images/scheduler.png';
+import tweeter from '../images/tweeter.png';
 
 export const Projects = () => {
   const projectDetails = [
