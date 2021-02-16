@@ -28,7 +28,7 @@ export const Skills = () => {
         <li className="frameworks-list-item">Bootstrap</li>
         <li className="frameworks-list-item">.Net</li>
       </ul>
-      <h4>Things I Have Experience With</h4>
+      <h4>Experiences I Have</h4>
       <ul className="experiences-list list">
         <li className="experiences-list-item">Single page applications</li>
         <li className="experiences-list-item">AJAX</li>
