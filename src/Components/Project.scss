@@ -27,6 +27,9 @@
     font-size: 1em;
   }
   .project-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: $projects-background;
     height: 30%;
     width: 100%;
@@ -35,8 +38,21 @@
     bottom: 0;
     left: 0;
     transition: all 0.5s ease;
-    opacity: 0.8;
+    opacity: 1;
     transform: translateY(0);
+    .hover-icon {
+      color: black;
+      font-size: 3em;
+      opacity: 1;
+      transition: 0.5s;
+    }
+    .hover-icon:hover::before {
+      transform: scale(1.1);
+    }
+    .hover-icon:hover {
+      color: pink;
+      text-shadow: 0 0 5px black;
+    }
   }
   .hide {
     height: 0;

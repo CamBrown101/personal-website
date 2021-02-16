@@ -22,7 +22,10 @@ export const Project = ({ title, image, description, techstack }: Props) => {
       <p className="project-description">{description}</p>
       <h3 className="tech-stack-header">Tech Stack</h3>
       <p className="tech-stack">{techstack}</p>
-      <div className={hover ? 'project-buttons' : 'project-buttons hide'}></div>
+      <div className={hover ? 'project-buttons' : 'project-buttons hide'}>
+        <i className="fab fa-github hover-icon" />
+        <i className="fas fa-link hover-icon" />
+      </div>
     </article>
   );
 };
