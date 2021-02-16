@@ -5,9 +5,18 @@ type Props = {
   image: string;
   description: string;
   techstack: string;
+  githubLink: string;
+  projectLink: string;
 };
 
-export const Project = ({ title, image, description, techstack }: Props) => {
+export const Project = ({
+  title,
+  image,
+  description,
+  techstack,
+  githubLink,
+  projectLink,
+}: Props) => {
   const [hover, setHover] = useState<boolean>(false);
 
   return (
@@ -23,8 +32,12 @@ export const Project = ({ title, image, description, techstack }: Props) => {
       <h3 className="tech-stack-header">Tech Stack</h3>
       <p className="tech-stack">{techstack}</p>
       <div className={hover ? 'project-buttons' : 'project-buttons hide'}>
-        <i className="fab fa-github hover-icon" />
-        <i className="fas fa-link hover-icon" />
+        <a href={githubLink}>
+          <i className="fab fa-github hover-icon" />
+        </a>
+        <a href={projectLink}>
+          <i className="fas fa-link hover-icon" />
+        </a>
       </div>
     </article>
   );
