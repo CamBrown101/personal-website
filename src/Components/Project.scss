@@ -1,15 +1,15 @@
 @import '../variables.scss';
 
 .project {
-  min-width: 300px;
-  max-width: 400px;
+  width: 50%;
   background-color: $projects-background;
   color: $projects-font;
-  padding: 2%;
   position: relative;
   .screenshot {
     width: 100%;
-    height: 180px;
+  }
+  .project-text {
+    margin: 5px 10px;
   }
   .tech-stack-header {
     font-size: 0.9em;
@@ -30,8 +30,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba($projects-background, 1);
-    height: 55%;
+    height: 25%;
+    background-color: rgba($projects-background, 0.9);
     width: 100%;
     z-index: 2;
     position: absolute;
@@ -53,7 +53,7 @@
       text-shadow: 0 0 5px white;
     }
     .link-container {
-      margin: 5%;
+      padding: 5%;
     }
   }
   .hide {
