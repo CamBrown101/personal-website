@@ -1,6 +1,10 @@
 @import '../variables.scss';
 
 #resume-container {
+  h3 {
+    margin: 10px;
+    font-size: 2em;
+  }
   display: flex;
   flex-direction: column;
   justify-content: center;
