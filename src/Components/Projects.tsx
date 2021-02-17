@@ -49,7 +49,6 @@ export const Projects = () => {
   ];
   return (
     <div id="projects-container">
-      <a id="projects" />
       <Project
         title={projectDetails[0].title}
         description={projectDetails[0].description}
