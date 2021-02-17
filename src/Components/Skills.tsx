@@ -4,8 +4,7 @@ import './Skills.scss';
 export const Skills = () => {
   return (
     <article id="skills-container">
-      <a id="skills" />
-      <h4>Languages I Know</h4>
+      <h4>Languages</h4>
       <ul className="languages-list list">
         <li className="languages-list-item">HTML</li>
         <li className="languages-list-item">CSS</li>
@@ -16,7 +15,7 @@ export const Skills = () => {
         <li className="languages-list-item">C#</li>
         <li className="languages-list-item">Ruby</li>
       </ul>
-      <h4>Frameworks I've Worked With</h4>
+      <h4>Frameworks</h4>
       <ul className="frameworks-list list">
         <li className="frameworks-list-item">React</li>
         <li className="frameworks-list-item">React-Router</li>
@@ -29,7 +28,7 @@ export const Skills = () => {
         <li className="frameworks-list-item">Bootstrap</li>
         <li className="frameworks-list-item">.Net</li>
       </ul>
-      <h4>Experiences I Have</h4>
+      <h4>Experiences</h4>
       <ul className="experiences-list list">
         <li className="experiences-list-item">Single page applications</li>
         <li className="experiences-list-item">AJAX</li>
