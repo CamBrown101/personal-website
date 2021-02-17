@@ -11,7 +11,9 @@ export const Home = () => {
     <div id="home-container">
       <div className="home-container-inner">
         <About />
+        <h1 id="skills">Skills</h1>
         <Skills />
+        <h1 id="projects">Projects</h1>
         <Projects />
         <Contact />
         <Resume />
