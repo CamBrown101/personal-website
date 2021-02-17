@@ -10,12 +10,22 @@ export const Nav = () => {
           <a className="nav-link home-link" href="#home-container">
             Home
           </a>
+          <a className="nav-link skills-link" href="#skills-container">
+            Skills
+          </a>
+          <a className="nav-link projects-link" href="#projects-container">
+            Projects
+          </a>
+          <a className="nav-link contact-link" href="#contact-container">
+            Contact
+          </a>
           <a
             className="nav-link resume-link"
             href="https://drive.google.com/file/d/1OPuBtAzy96BxfqNnHw-BFt1LKoNr2zy9/view?usp=sharing"
             target="_blank">
             Resume
           </a>
+
           {/* <NavLink exact to="/" className="nav-menu-item" id="nav-menu-home">
             Home
           </NavLink>
