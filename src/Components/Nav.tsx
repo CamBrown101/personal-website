@@ -10,10 +10,10 @@ export const Nav = () => {
           <a className="nav-link home-link" href="#home-container">
             Home
           </a>
-          <a className="nav-link skills-link" href="#skills-container">
+          <a className="nav-link skills-link" href="#skills">
             Skills
           </a>
-          <a className="nav-link projects-link" href="#projects-container">
+          <a className="nav-link projects-link" href="#projects">
             Projects
           </a>
           <a className="nav-link contact-link" href="#contact-container">

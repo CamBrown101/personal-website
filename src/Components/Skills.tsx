@@ -4,6 +4,7 @@ import './Skills.scss';
 export const Skills = () => {
   return (
     <article id="skills-container">
+      <a id="skills" />
       <h4>Languages I Know</h4>
       <ul className="languages-list list">
         <li className="languages-list-item">HTML</li>
