@@ -80,6 +80,7 @@
     .nav-link:hover {
       color: white;
       background-color: $contact-hover;
+      box-shadow: 0 0 5px black;
       text-shadow: 0 0 5px black;
     }
     .nav-link:visited {
