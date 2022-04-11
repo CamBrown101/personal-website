@@ -91,3 +91,35 @@
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  #nav-bar {
+    width: 100%;
+    justify-content: center;
+    i {
+      font-size: 35px;
+    }
+    #nav-menu {
+      margin-left: 1%;
+      flex-direction: column;
+      .sections {
+        justify-content: center;
+      }
+      .nav-link {
+        font-size: 19px;
+        margin-top: 5px;
+        margin-right: 2px;
+      }
+      .nav-contacts {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3px;
+        .nav-contact {
+          padding: 0;
+          padding-right: 2px;
+        }
+      }
+    }
+  } 
+}

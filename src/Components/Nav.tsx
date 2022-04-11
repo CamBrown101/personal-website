@@ -25,31 +25,6 @@ export const Nav = () => {
             target="_blank">
             Resume
           </a>
-
-          {/* <NavLink exact to="/" className="nav-menu-item" id="nav-menu-home">
-            Home
-          </NavLink>
-          <NavLink
-            exact
-            to="#about-container"
-            className="nav-menu-item"
-            id="nav-menu-about">
-            About
-          </NavLink>
-          <NavLink
-            exact
-            to="/contact"
-            className="nav-menu-item"
-            id="nav-menu-contact">
-            Contact
-          </NavLink>
-          <NavLink
-            exact
-            to="/projects"
-            className="nav-menu-item"
-            id="nav-menu-projects">
-            Projects
-          </NavLink> */}
         </div>
         <div className="nav-contacts">
           <a
