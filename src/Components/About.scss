@@ -24,3 +24,16 @@
     margin: 0;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  #about-container {
+    background-image: none;
+    height: 320px;
+    .name {
+      margin-top: 35px;
+    }
+    .about-me {
+      max-width: 100%;
+    }
+  }
+}

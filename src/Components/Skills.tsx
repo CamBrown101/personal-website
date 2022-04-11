@@ -14,6 +14,7 @@ export const Skills = () => {
         <li className="languages-list-item">SQL</li>
         <li className="languages-list-item">C#</li>
         <li className="languages-list-item">Ruby</li>
+        <li className="languages-list-item">Python</li>
       </ul>
       <h4>Frameworks</h4>
       <ul className="frameworks-list list">
@@ -27,6 +28,7 @@ export const Skills = () => {
         <li className="frameworks-list-item">jQuery</li>
         <li className="frameworks-list-item">Bootstrap</li>
         <li className="frameworks-list-item">.Net</li>
+        <li className="frameworks-list-item">Flask</li>
       </ul>
       <h4>Experiences</h4>
       <ul className="experiences-list list">
@@ -36,19 +38,18 @@ export const Skills = () => {
         <li className="experiences-list-item">Normalizing databases</li>
         <li className="experiences-list-item">Test driven development</li>
         <li className="experiences-list-item">
-          End to end testing with Cypress
+          End to end testing with Cypress and Puppeteer
         </li>
         <li className="experiences-list-item">Git on group projects</li>
         <li className="experiences-list-item">
           Component testing with storybook
         </li>
-        <li className="experiences-list-item">Insertion testing with Jest</li>
+        <li className="experiences-list-item">Assertion testing with Jest</li>
         <li className="experiences-list-item">
-          Continuous integration with CircleCI
+          Continuous integration with CircleCI, Jenkins and Github Actions
         </li>
         <li className="experiences-list-item">Object Orientated Programming</li>
         <li className="experiences-list-item">MVC concept</li>
-        <li className="experiences-list-item">Unity</li>
       </ul>
     </article>
   );
